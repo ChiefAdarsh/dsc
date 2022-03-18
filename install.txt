@@ -1,0 +1,4 @@
+#mkdir -p /lib/modules/`uname -r`/kernel/drivers/dscmod/
+#cp dscmod.ko /lib/modules/`uname -r`/kernel/drivers/dscmod/
+#and add  dscmod to /etc/modules
+#and run command "depmod" and reboot
